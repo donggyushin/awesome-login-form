@@ -1,0 +1,22 @@
+{
+  "name": "login-form",
+  "version": "1.0.0",
+  "description": "awesome login form",
+  "main": "index.js",
+  "repository": "https://github.com/donggyushin/awesome-login-form",
+  "author": "rontend",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.htm"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.3.0"
+  },
+  "postcss":{
+    "plugins": {
+      "postcss-preset-env":{
+        "stage": 0
+      }
+    }
+  }
+}
